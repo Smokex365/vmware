@@ -3,8 +3,7 @@
 
 #Get-EsxImageProfile -name "ESXi-6.0.*"
 $profile_family = @("ESXi-6.0.0*", "ESXi-6.5.0*")
-$esxi_pf = Get-EsxImageProfile -Name $($profile_family)
-$get_profile = ForEach-Object -Process $esxi_pf
+#some code to go through available profiles
 
 #Specifies Export type, either "1" for ISO or "2" for Bundle (.zip)
 $export_type = 1
