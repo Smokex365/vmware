@@ -1,3 +1,5 @@
+###WIP: Does not currently work###
+
 #Get Output Type
 #$export_type = Read-Host "Enter 1 to output in ISO format, 2 for Bundle (.zip) format"
 
